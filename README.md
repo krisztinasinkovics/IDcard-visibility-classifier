@@ -6,9 +6,11 @@
 Implementation of multiclass image classifier for identifying visibility of ID cards on corrupted images
 utilizing CNN architecture with a pretrained backbone network and Keras/Tensorflow.
 
-[Input image example](sample_images/example_input_images.PNG)
+Input image example:  
+![Input image example](sample_images/example_input_images.PNG)
 
-[Output labels example](sample_images/example_labels.PNG)
+Output labels example:  
+![Output labels example](sample_images/example_labels.PNG)
 
 
 The project includes:
@@ -29,10 +31,10 @@ which also mitigate the problem of vanishing gradient.
 
 The backbone is followed by three Dense layers with dropout for regularization and a dense output layer with softmax activation.   
 Loss: Categorical cross entropy.
-
+    
 ## Data
 
-original dataset comes from [https://arxiv.org/abs/1807.05786](MIDV-500 A Dataset for Identity Documents Analysis and Recognition on Mobile Devices in Video Stream)  
+original dataset comes from https://arxiv.org/abs/1807.05786 -- MIDV-500 A Dataset for Identity Documents Analysis and Recognition on Mobile Devices in Video Stream.  
 
 ### 1) images
 A folder containing pictures of different types of ID documents taken in different conditions and backgrounds. Pictures are corrupted.
