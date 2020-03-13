@@ -58,7 +58,7 @@ pip install matplotlib==3.1.2
 ## Run Instructions
 
 1. Go to directory `code`, there you will find the main.py file  
-2. To run model training (i.e. task c(ii)) use the following command:  
+2. To run model training use the following command:  
 
 ```
 $ python main.py --mode=train --img_dir=</path/to/directory/containing/images/> \
@@ -66,7 +66,7 @@ $ python main.py --mode=train --img_dir=</path/to/directory/containing/images/> 
 							  --out_dir=</path/to/directory/where/model.hdf5/file/will/be/saved>
 ```
 							  
-3. To run model training (i.e. task c(ii)) use the following command:  
+3. To run model training use the following command:  
 ```
 $ python main.py --mode=predict --path_to_image=</pah/to/image/ (e.g. ../data/images/GICSD_26_7_213.png)> \
                                 --model_location=</pah/to/model.hdf5 (e.g. ../artifacts/prod_resnet50_oversampling_model.h5)>
