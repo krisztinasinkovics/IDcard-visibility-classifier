@@ -14,7 +14,7 @@ Output labels example:
 
 
 The project includes:
- - a [notebook](notebooks/House_of_ID_Cards.html) with data exploration, model training and evaluation of the performance;
+ - a [notebook](notebook/House_of_ID_Cards.html) with data exploration, model training and evaluation of the performance;
  - a script for training teh model or predicting in new input.
 
 ## Approach
